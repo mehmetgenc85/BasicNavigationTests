@@ -29,6 +29,8 @@ public class BrowserFactory {
             return new OperaDriver();
         } else if (browserName.equalsIgnoreCase("safari")) {
             return null;
+        }else {
+            return null;
         }
     }
 }
